@@ -1,25 +1,25 @@
- ## try-layer security system videos and photos
+ # try-layer security system videos and photos
 https://drive.google.com/drive/folders/1bnvftaU0Rn5BqzUiF9pvZ_ST62k63F7D
 
-TRI-LAYER SECURE ENTRY SYSTEM
-AIM:
+# TRI-LAYER SECURE ENTRY SYSTEM
+## AIM:
 Security breaches, unauthorized access, and identity misuse have become major concerns in residential, commercial, and industrial environments. Traditional single-factor or password-based authentication methods are no longer sufficient to protect sensitive areas due to risks such as password guessing, card duplication, and system manipulation. To address these challenges, this project presents a Tri-Layer Secure Entry System, integrating three authentication stages: RFID-based user identification, password verification, and time-bound One-Time Password (OTP) confirmation.
-BLOCK DIAGRAM:
+## BLOCK DIAGRAM:
 
 <img width="638" height="475" alt="image" src="https://github.com/user-attachments/assets/6a5827fa-3520-4db4-a037-55961b762c3d" />
 
  
-REQUIREMENTS:
-HARDWARE REQUIREMENTS:
-➢	LPC 2148
-➢	GSM MODULE (M660A)
-➢	16X2 LCD
-➢	SWITCH
-➢	4X4 MATRIX KEYPAD
-➢	LED/BULB/DC MOTOR (WITH L293D CIRCUIT)
-➢	AT24C256
-➢	RFID READER
-➢	RFID CARDS
+## REQUIREMENTS:
+## HARDWARE REQUIREMENTS:
+##	LPC 2148
+-	GSM MODULE (M660A)
+-	16X2 LCD
+-	SWITCH
+-	4X4 MATRIX KEYPAD
+-	LED/BULB/DC MOTOR (WITH L293D CIRCUIT)
+-	AT24C256
+-	RFID READER
+-	RFID CARDS
 
 
 SOFTWARE REQUIREMENTS:
