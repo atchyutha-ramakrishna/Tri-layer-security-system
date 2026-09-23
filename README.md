@@ -42,10 +42,10 @@ Security breaches, unauthorized access, and identity misuse have become major co
 -	Connect RFID READER D0 pin to USB to UART converter and test the working condition.
 -	Then write logic for reading the card number using UART0 interrupt and display it on LCD.
 -	Next connect gsm module to PC and check the gsm module working condition with the help of below mentioned AT commands.
-   -AT
-   -ATE0
-   -AT+CMGF=1
-   -AT+CMGS=”Mobile Number” then enter
+   - AT
+   - ATE0
+   - AT+CMGF=1
+   - AT+CMGS=”Mobile Number” then enter
 Gsm will give the reply like ‘>’ then you have to type the message content and press ctrl+z from the keyboard to send the SMS. This process you have to do from the hyper terminal application which is available in windows XP.
 -	Next Check the GSM module working condition by developing gsm_init() function and send_sms() function.
 - Note: GSM interfacing program has to develop with the help of UART interrupts only.
