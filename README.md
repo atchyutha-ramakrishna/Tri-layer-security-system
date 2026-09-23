@@ -46,7 +46,7 @@ Security breaches, unauthorized access, and identity misuse have become major co
    - ATE0
    - AT+CMGF=1
    - AT+CMGS=”Mobile Number” then enter
-Gsm will give the reply like ‘>’ then you have to type the message content and press ctrl+z from the keyboard to send the SMS. This process you have to do from the hyper terminal application which is available in windows XP.
+- Gsm will give the reply like ‘>’ then you have to type the message content and press ctrl+z from the keyboard to send the SMS. This process you have to do from the hyper terminal application which is available in windows XP.
 -	Next Check the GSM module working condition by developing gsm_init() function and send_sms() function.
 - Note: GSM interfacing program has to develop with the help of UART interrupts only.
 -	If above steps are completed, create new file with projectmain.c add all peripheral definition files and write below steps in projectmain.c file
