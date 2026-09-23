@@ -29,7 +29,7 @@ Security breaches, unauthorized access, and identity misuse have become major co
 
 ## Steps to be followed to complete your project:
 - Create New Folder in your server save that folder with your project name
--	Copy what you done files like lcd.c, lcd.h, delay,c, delay.h, uart.c, uart.h, keypad.c, keypad.h, i2c.c and i2c.h into project folder.
+-	Copy what you done files like lcd.c, lcd.h, delay,c, delay.h, uart.c, uart.h, keypad.c, keypad.h, i2c.c and i2c.h into         project folder.
 -	Individually can check each and every module.
 -	First check lcd to display character constant, string constant and integer constant.
 -	Next check keypad peripheral by displaying key values on LCD.
@@ -42,10 +42,10 @@ Security breaches, unauthorized access, and identity misuse have become major co
 -	Connect RFID READER D0 pin to USB to UART converter and test the working condition.
 -	Then write logic for reading the card number using UART0 interrupt and display it on LCD.
 -	Next connect gsm module to PC and check the gsm module working condition with the help of below mentioned AT commands.
-   AT
-   ATE0
-   AT+CMGF=1
-   AT+CMGS=”Mobile Number” then enter
+   -AT
+   -ATE0
+   -AT+CMGF=1
+   -AT+CMGS=”Mobile Number” then enter
 Gsm will give the reply like ‘>’ then you have to type the message content and press ctrl+z from the keyboard to send the SMS. This process you have to do from the hyper terminal application which is available in windows XP.
 -	Next Check the GSM module working condition by developing gsm_init() function and send_sms() function.
 - Note: GSM interfacing program has to develop with the help of UART interrupts only.
